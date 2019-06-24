@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+	     url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+body {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       small;
+}
+h1, h2 {
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+}
+h1 {
+  font-family:     "Emblema One", sans-serif;
+  font-size:       220%;
+}
+h2 {
+  font-size:       130%;
+  font-weight:     normal;
+}
+blockquote {
+  font-style:      italic;
+}
+table{
+	margin: 0 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+td,th{
+	border: thin dotted gray;
+	padding: 5px;
+}
+tr:first-child{
+	background-color: #cc6600;
+}
+caption{
+	font-style: italic;
+	padding-top: 8px;
+}
+td:nth-child(2),td:nth-child(3n),th:nth-child(2),th:nth-child(3n){
+	text-align: center;
+}
+td:nth-child(4),td:nth-child(5),th:nth-child(4),th:nth-child(5){
+	text-align: right;
+}
+tr:nth-of-type(3),tr:nth-of-type(5),tr:nth-of-type(8){
+	background-color: #fcba7a;
+}
+tr.color1{
+	background-color: blue;
+}
+tr.color2{
+	background-color: pink;
+}
+li{
+	list-style: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
+}
